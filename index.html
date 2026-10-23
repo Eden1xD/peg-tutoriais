@@ -1,0 +1,315 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#f8f5ff">
+  <meta name="description" content="Aprenda a instalar o aplicativo PEG no Android ou iPhone.">
+  <title>Instale o PEG | Tutorial Oficial</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <a href="#" class="brand">
+      <div class="brand-icon">P<span>.</span></div>
+      <div class="brand-text">
+        <strong>PEG</strong>
+        <small>Progressão Estudantil Gremista</small>
+      </div>
+    </a>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+      ☾
+    </button>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="hero-content">
+        <span class="eyebrow">
+          PEG 2027 · TUTORIAL OFICIAL
+        </span>
+
+        <h1>
+          Seu grêmio.<br>
+          <span>Na palma da mão.</span>
+        </h1>
+
+        <p>
+          Ainda não instalou o PEG? Sem problemas.
+          Preparamos um tutorial simples para você
+          começar a usar nossa plataforma.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#tutorial" class="btn btn-primary">
+            Começar instalação <span>↗</span>
+          </a>
+          <a href="#" id="openPegHero" class="btn btn-outline">
+            Acessar o PEG
+          </a>
+        </div>
+
+        <div class="hero-info">
+          <span class="status-dot"></span>
+          Disponível para Android e iPhone
+        </div>
+      </div>
+
+      <div class="hero-art" aria-hidden="true">
+        <div class="phone">
+          <div class="phone-camera"></div>
+          <div class="phone-screen">
+            <div class="app-logo">P<span>.</span></div>
+            <span class="phone-label">PROGRESSÃO ESTUDANTIL</span>
+            <h3>Bem-vindo<br>ao PEG.</h3>
+            <p>A voz dos estudantes.</p>
+            <div class="phone-button">Começar →</div>
+            <div class="phone-lines">
+              <i></i><i></i><i></i>
+            </div>
+          </div>
+        </div>
+        <div class="floating-tag tag-one">✦ Feito para alunos</div>
+        <div class="floating-tag tag-two">✓ PEG 2027</div>
+      </div>
+    </section>
+
+    <section class="tutorial-section" id="tutorial">
+      <div class="section-heading">
+        <span class="eyebrow">PASSO A PASSO</span>
+        <h2>Vamos instalar?</h2>
+        <p>Selecione o sistema do seu celular para continuar.</p>
+      </div>
+
+      <div class="device-selector">
+        <button class="device active" data-device="android">
+          <span class="device-icon">◈</span>
+          <span>
+            <strong>Android</strong>
+            <small>Apartir do Android 10</small>
+          </span>
+          <span class="device-check">✓</span>
+        </button>
+
+        <button class="device" data-device="ios">
+          <span class="device-icon">●</span>
+          <span>
+            <strong>iPhone</strong>
+            <small>iOS · Apple</small>
+          </span>
+          <span class="device-check">✓</span>
+        </button>
+      </div>
+
+      <div class="tutorial-panel active" id="androidPanel">
+        <div class="panel-top">
+          <div>
+            <span class="eyebrow">ANDROID</span>
+            <h3>Instalando no Android</h3>
+            <p>Siga estas etapas para instalar o aplicativo.</p>
+          </div>
+          <span class="step-count">03 ETAPAS</span>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-number">01</div>
+            <div class="step-body">
+              <h4>Baixe o aplicativo</h4>
+              <p>
+                Clique no botão de download abaixo para baixar
+                o arquivo APK oficial do PEG.
+              </p>
+              <div class="step-preview">
+                <span class="preview-icon">↓</span>
+                <div>
+                  <strong>PEG.apk</strong>
+                  <small>Aplicativo para Android</small>
+                </div>
+                <span class="preview-check">✓</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step-number">02</div>
+            <div class="step-body">
+              <h4>Abra o arquivo baixado</h4>
+              <p>
+                Acesse seus downloads e toque no arquivo APK.
+                Caso o Android solicite, autorize a instalação
+                de aplicativos dessa fonte.
+              </p>
+              <div class="step-tip">
+                <strong>Dica:</strong> autorize somente o arquivo
+                baixado pelo link oficial do PEG.
+              </div>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step-number">03</div>
+            <div class="step-body">
+              <h4>Pronto! Agora é só entrar.</h4>
+              <p>
+                Após a instalação, abra o PEG, entre com sua
+                conta ou faça seu cadastro para começar.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <a href="#" id="downloadApk" class="btn btn-primary btn-full">
+          ↓ Baixar PEG para Android
+        </a>
+      </div>
+
+      <div class="tutorial-panel" id="iosPanel">
+        <div class="panel-top">
+          <div>
+            <span class="eyebrow">IPHONE · IOS</span>
+            <h3>Instalando no iPhone</h3>
+            <p>Adicione o PEG diretamente à sua tela inicial.</p>
+          </div>
+          <span class="step-count">04 ETAPAS</span>
+        </div>
+
+        <div class="steps">
+          <article class="step">
+            <div class="step-number">01</div>
+            <div class="step-body">
+              <h4>Abra o Safari</h4>
+              <p>
+                No iPhone, abra o navegador Safari e acesse
+                o site oficial do PEG pelo botão abaixo.
+              </p>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step-number">02</div>
+            <div class="step-body">
+              <h4>Toque em Compartilhar</h4>
+              <p>
+                No Safari, procure o ícone de compartilhamento
+                (um quadrado com uma seta para cima).
+              </p>
+              <div class="step-symbol">□↑</div>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step-number">03</div>
+            <div class="step-body">
+              <h4>Adicionar à Tela de Início</h4>
+              <p>
+                No menu, selecione "Adicionar à Tela de Início".
+                Dependendo da versão do iOS, a opção pode
+                aparecer dentro de "Mais".
+              </p>
+              <div class="ios-preview">
+                <span>⊞</span>
+                Adicionar à Tela de Início
+                <span>›</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="step">
+            <div class="step-number">04</div>
+            <div class="step-body">
+              <h4>Confirme a instalação</h4>
+              <p>
+                Toque em "Adicionar". O ícone do PEG aparecerá
+                na tela inicial do seu iPhone.
+              </p>
+            </div>
+          </article>
+        </div>
+
+        <a href="#" id="openPegIos" class="btn btn-primary btn-full">
+          ↗ Abrir PEG no Safari
+        </a>
+
+        <p class="panel-note">
+          No iPhone, este método adiciona a versão web do PEG
+          à tela inicial, sem precisar da App Store.
+        </p>
+      </div>
+    </section>
+
+    <section class="help-section" id="ajuda">
+      <div class="section-heading">
+        <span class="eyebrow">PRECISA DE AJUDA?</span>
+        <h2>Dúvidas frequentes.</h2>
+        <p>Respostas para os problemas mais comuns.</p>
+      </div>
+
+      <div class="faq">
+        <details>
+          <summary>O PEG é gratuito? <span>+</span></summary>
+          <p>Sim! A plataforma PEG é gratuita para os estudantes.</p>
+        </details>
+
+        <details>
+          <summary>O aplicativo funciona no iPhone? <span>+</span></summary>
+          <p>
+            Sim. Você pode acessar o PEG pelo Safari e
+            adicioná-lo à tela inicial.
+          </p>
+        </details>
+
+        <details>
+          <summary>Não consigo instalar no Android. <span>+</span></summary>
+          <p>
+            Confira se o download terminou e se o Android
+            permitiu a instalação do arquivo APK oficial.
+            Se continuar com problemas, utilize o site do PEG.
+          </p>
+        </details>
+
+        <details>
+          <summary>Preciso criar uma conta? <span>+</span></summary>
+          <p>
+            Para utilizar as funcionalidades internas,
+            você precisa entrar ou cadastrar sua conta.
+          </p>
+        </details>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="cta-content">
+        <span class="eyebrow">PEG 2027</span>
+        <h2>Mais perto.<br>Mais conectados.</h2>
+        <p>
+          Notícias, eventos, enquetes, interclasses e muito
+          mais em um só lugar.
+        </p>
+        <a href="#" id="openPegFooter" class="btn btn-light">
+          Conhecer a plataforma ↗
+        </a>
+      </div>
+      <div class="cta-symbol">P.</div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer-brand">
+      <strong>PEG<span>.</span></strong>
+      <p>Progressão Estudantil Gremista</p>
+    </div>
+    <span>© 2027 PEG · Feito para os estudantes.</span>
+    <a href="#top" id="backToTop">Voltar ao topo ↑</a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+</body>
+</html>
